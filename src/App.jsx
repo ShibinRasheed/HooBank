@@ -1,5 +1,5 @@
 import styles from './style'
-import {Navbar , Hero} from "./components"
+import {Navbar , Hero , Stats} from "./components"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 
           <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
-              Stats
+              <Stats/>
               Business
               Billing 
               CardDeal 
