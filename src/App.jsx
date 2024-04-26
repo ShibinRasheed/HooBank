@@ -1,5 +1,5 @@
 import styles from './style'
-import {Navbar} from "./components"
+import {Navbar , Hero} from "./components"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 
           <div className={`bg-primary ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
-              Hero
+              <Hero />
             </div>
           </div>
 
