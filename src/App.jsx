@@ -1,9 +1,9 @@
 import styles from './style'
-import {Navbar , Hero , Stats , Business} from "./components"
+import {Navbar , Hero , Stats , Business, Billing} from "./components"
 
 function App() {
   return (
-    <>
+
       <div className='bg-primary w-full overflow-hidden'>
           <div className={`${styles.paddingX} ${styles.flexCenter}`}>
             <div className={`${styles.boxWidth}`}>  
@@ -21,7 +21,7 @@ function App() {
             <div className={`${styles.boxWidth}`}>
               <Stats/>
               <Business/>
-              Billing 
+              <Billing/>
               CardDeal 
               Testimonials 
               Clients 
@@ -31,7 +31,7 @@ function App() {
           </div>
 
       </div>
-    </>
+
   )
 }
 
