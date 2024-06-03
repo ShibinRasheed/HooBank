@@ -1,5 +1,5 @@
 import styles from './style'
-import {Navbar , Hero , Stats , Business, Billing, CardDeal, Testimonials, Clients, CTA} from "./components"
+import {Navbar , Hero , Stats , Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer} from "./components"
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
               <Testimonials/> 
               <Clients/>
               <CTA/>
-              Footer
+              <Footer/>
             </div>
           </div>
 
