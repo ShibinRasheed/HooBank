@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://shibinrasheed.github.io/hoobank",
+  "homepage": "https://shibinrasheed.github.io/HooBank",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
